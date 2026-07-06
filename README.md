@@ -2,7 +2,15 @@
 
 Run ComfyUI in Google Colab with optional Google Drive persistence, one-click model downloads, and public access via Cloudflare Tunnel or Localtunnel.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nazdridoy/ComfyUI-On-Colab/blob/main/ComfyUIonColab.ipynb)
+## Fixed one-click notebook
+
+Use this fixed notebook first. It updates ComfyUI cleanly, installs the current `requirements.txt`, installs `alembic`/`blake3`, removes stale files that can cause `ModuleNotFoundError: No module named 'comfy_aimdo'`, installs ComfyUI-Manager, downloads SD1.5 + VAE, and launches through Cloudflare Tunnel.
+
+[![Open fixed notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qingan123/ComfyUI-On-Colab/blob/main/ComfyUI_fixed_colab.ipynb)
+
+Original notebook:
+
+[![Open original notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qingan123/ComfyUI-On-Colab/blob/main/ComfyUIonColab.ipynb)
 
 ---
 
