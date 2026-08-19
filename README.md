@@ -1,3 +1,21 @@
+## 我的版本部署
+
+```bash
+bash scripts/install.sh
+```
+
+## 官方版本部署
+
+```bash
+bash scripts/one-click-install.sh
+```
+
+## 版本更新
+
+```bash
+bash scripts/update.sh
+```
+
 # ComfyUI on Google Colab
 
 Run ComfyUI in Google Colab with optional Google Drive persistence, one-click model downloads, and public access via Cloudflare Tunnel or Localtunnel.
